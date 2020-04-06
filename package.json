@@ -12,7 +12,9 @@
     "test": "microbundle && jest",
     "jest": "jest"
   },
-  "transforms": { "generator": false },
+  "transforms": {
+    "generator": false
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jfinity/value-exchange.git"
@@ -31,6 +33,16 @@
   "homepage": "https://github.com/jfinity/value-exchange#readme",
   "devDependencies": {
     "jest": "25.2.7",
-    "microbundle": "0.11.0"
+    "microbundle": "0.11.0",
+    "kind-of": "6.0.3",
+    "serialize-javascript": "2.1.1",
+    "braces": "2.3.1",
+    "js-yaml": "3.13.1"
+  },
+  "resolutions": {
+    "kind-of": "6.0.3",
+    "serialize-javascript": "2.1.1",
+    "braces": "2.3.1",
+    "js-yaml": "3.13.1"
   }
 }
