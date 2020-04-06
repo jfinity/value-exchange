@@ -1,0 +1,36 @@
+{
+  "name": "value-exchange",
+  "version": "0.0.1",
+  "description": "Synchronous generator-based cache intended to support memoization and referential equality use cases",
+  "source": "src/value-exchange.js",
+  "main": "dist/value-exchange.js",
+  "module": "dist/value-exchange.module.js",
+  "unpkg": "dist/value-exchange.umd.js",
+  "scripts": {
+    "dev": "microbundle watch",
+    "build": "microbundle",
+    "test": "microbundle && jest",
+    "jest": "jest"
+  },
+  "transforms": { "generator": false },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfinity/value-exchange.git"
+  },
+  "keywords": [
+    "memo",
+    "memoization",
+    "referential",
+    "equality"
+  ],
+  "author": "Justin C. Moore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfinity/value-exchange/issues"
+  },
+  "homepage": "https://github.com/jfinity/value-exchange#readme",
+  "devDependencies": {
+    "jest": "25.2.7",
+    "microbundle": "0.11.0"
+  }
+}
